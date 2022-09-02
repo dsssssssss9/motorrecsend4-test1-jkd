@@ -1,0 +1,29 @@
+{
+    "name": "motorRec.Send4 TEST1 JKD",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "jacdac": "github:microsoft/pxt-jacdac#v1.8.17",
+        "jacdac-button": "github:microsoft/pxt-jacdac/button#v1.8.17",
+        "jacdac-rotary-encoder": "github:microsoft/pxt-jacdac/rotary-encoder#v1.8.17"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "jacdac.json",
+        "jacdac.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "5.0.12",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
